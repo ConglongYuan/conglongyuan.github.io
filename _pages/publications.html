@@ -1,36 +1,23 @@
 ---
 layout: archive
-title: "Publications"
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+\# Co-first author; * corresponding author.
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+1. Guo L et al., **Yuan C***, Wang X*, Zheng Z*. Advances in Liquid Crystal Holographic Devices: Recent Research Progress. *Advanced Functional Materials*, 2026, e75304.
+2. **Yuan C#**, Liu H# et al. Electro-Thermo Cooperative Responsiveness of Cholesteric Heliconical Photonics Architectures Featuring Adaptative Sensitivity. *Advanced Materials*, 2025, 37: 2507000.
+3. Liu H#, Guo L# et al., **Yuan C***, Zheng Z*. Twist-Bend Nematic Phase and Heliconical Superstructures of Thioether-Linked Liquid Crystal Dimers. *Journal of Chemical Physics*, 2025, 163: 134901.
+4. Jiao G et al., **Yuan C***, Zheng Z*. Programming Smectic Soft Defects via Pixelated Holographic Lithography. *Advanced Optical Materials*, 2025, 13: 2500233.
+5. Shen N et al., **Yuan C***, Zheng Z. Light-Activated Film Diffractive Optical Elements Enabling Diversified Optical Field Modulation. *Chinese Optics Letters*, 2025, 23: 011602.
+6. **Yuan C** et al. Room Temperature Stable Twist-Bend Nematic Materials without Crystallization over 1 Year. *Giant*, 2024, 19: 100290.
+7. Shen N#, **Yuan C#**, Hu H# et al. Photo-Active Soft Actuator Enabling Dynamic Manipulable Lenses with Surface Reshaping. *Advanced Optical Materials*, 2024, 12: 2401430.
+8. **Yuan C#**, Chen J# et al. Hyper-Stable Field-Stimulated Soft Cholesteric Heliconical Architectures. *Matter*, 2023, 6: 3555-3573.
+9. Wang Y#, **Yuan C#**, Huang W# et al. Programmable Jigsaw Puzzles of Soft Materials Enabled by Pixelated Holographic Surface Reliefs. *Advanced Materials*, 2023, 35: 2211521.
+10. Liu B#, **Yuan C#**, Hu H# et al. Dynamically Actuated Soft Heliconical Architecture via Frequency of Electric Fields. *Nature Communications*, 2022, 13: 2712.
+11. **Yuan C** et al. Electrically Tunable Helicity of Cholesteric Heliconical Superstructure. *Chinese Optics Letters*, 2020, 18: 080005.
+12. **Yuan C#**, Huang W#, Zheng Z#,* et al. Stimulated Transformation of Soft Helix among Helicoidal, Heliconical, and Their Inverse Helices. *Science Advances*, 2019, 5: eaax9501.
+13. Zheng Z#, **Yuan C#**, Hu W# et al. Light-Patterned Crystallographic Direction of a Self-Organized 3D Soft Photonic Crystal. *Advanced Materials*, 2017, 29: 1703165.
+14. Huang W#, **Yuan C#** et al. Dynamically Manipulated Lasing Enabled by a Reconfigured Fingerprint Texture of a Cholesteric Self-Organized Superstructure. *Journal of Materials Chemistry C*, 2017, 5: 6923-6928.
