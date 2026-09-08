@@ -23,12 +23,12 @@ repository               : "ConglongYuan/conglongyuan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://avatars.githubusercontent.com/u/295696864?v=4"
+  avatar           : "profile.jpg"
   name             : "Conglong Yuan | 袁丛龙"
   pronouns         : # example: "she/her"  
   bio              : "Lecturer in Physics"
   location         : "Shanghai, China"
-  employer         : "East China University of Science and Technology"
+  employer         : "ECUST · School of Physics"
   uri              : # URL
   email            : "conglongyuan@ecust.edu.cn" 
 
