@@ -1,6 +1,6 @@
 /* Custom homepage — an evidence-led research atlas. */
 
-.main--home {
+#main.main--home {
   --home-ink: #10172c;
   --home-muted: #60708b;
   --home-paper: #f5f7fb;
@@ -12,9 +12,9 @@
   --home-coral: #ea5c68;
   display: block;
   width: 100%;
-  max-width: none;
-  margin: 0;
-  padding: 0;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
   color: var(--home-ink);
   background: var(--home-paper);
   overflow: hidden;
@@ -24,7 +24,7 @@
   display: none;
 }
 
-html[data-theme="dark"] .main--home {
+html[data-theme="dark"] #main.main--home {
   --home-ink: #f4f7ff;
   --home-muted: #b9c5d8;
   --home-paper: #101522;

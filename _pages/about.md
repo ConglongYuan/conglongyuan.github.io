@@ -96,7 +96,7 @@ redirect_from:
     <div class="feature-grid">
       <article class="feature-card feature-card--wide">
         <a class="feature-card__image" href="https://doi.org/10.1002/adma.202507000" aria-label="Read the Advanced Materials paper">
-          <img src="/images/research/featured-thermo.webp" alt="Diagram of a cholesteric heliconical architecture changing reflection wavelength with temperature and electric field" loading="lazy" width="1000" height="684">
+          <img src="/images/research/featured-thermo.webp" alt="Diagram of a cholesteric heliconical architecture changing reflection wavelength with temperature and electric field" width="1000" height="684">
         </a>
         <div class="feature-card__body">
           <p><span>Advanced Materials · 2025</span><b>co-first author</b></p>
@@ -108,7 +108,7 @@ redirect_from:
 
       <article class="feature-card">
         <a class="feature-card__image" href="https://doi.org/10.1016/j.matt.2023.07.027" aria-label="Read the Matter paper">
-          <img src="/images/research/featured-stability.webp" alt="Optical device concept and multicolor polarization-responsive patterns from a stable cholesteric heliconical architecture" loading="lazy" width="1000" height="684">
+          <img src="/images/research/featured-stability.webp" alt="Optical device concept and multicolor polarization-responsive patterns from a stable cholesteric heliconical architecture" width="1000" height="684">
         </a>
         <div class="feature-card__body">
           <p><span>Matter · 2023</span><b>co-first author</b></p>
@@ -120,7 +120,7 @@ redirect_from:
 
       <article class="feature-card">
         <a class="feature-card__image" href="https://doi.org/10.1002/adom.202500233" aria-label="Read the Advanced Optical Materials paper">
-          <img src="/images/research/featured-defects.webp" alt="Programmed smectic defect patterns, nanoscale surface reliefs, and a multicolor T-shaped optical pattern" loading="lazy" width="1000" height="684">
+          <img src="/images/research/featured-defects.webp" alt="Programmed smectic defect patterns, nanoscale surface reliefs, and a multicolor T-shaped optical pattern" width="1000" height="684">
         </a>
         <div class="feature-card__body">
           <p><span>Advanced Optical Materials · 2025</span><b>corresponding author</b></p>
