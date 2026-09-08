@@ -20,6 +20,10 @@
   overflow: hidden;
 }
 
+.body--home .page__footer {
+  display: none;
+}
+
 html[data-theme="dark"] .main--home {
   --home-ink: #f4f7ff;
   --home-muted: #b9c5d8;
