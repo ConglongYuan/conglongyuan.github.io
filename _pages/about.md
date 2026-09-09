@@ -40,7 +40,7 @@ redirect_from:
           <path d="M166 582h142" stroke="#c65c60" stroke-width="4"/>
         </g>
       </svg>
-      <p class="hero-media__caption">Replaceable media slot · structure / field / spectrum</p>
+      <p class="hero-media__caption">Structure · field · spectrum</p>
     </div>
   </section>
 

@@ -72,6 +72,9 @@ html[data-theme="dark"] {
   background: transparent;
 }
 
+.site-studio .greedy-nav .visible-links { background: transparent; }
+.site-studio .greedy-nav .hidden-links { background: var(--studio-surface); }
+
 .site-studio .greedy-nav a {
   color: var(--studio-muted);
   font-size: 15px;
