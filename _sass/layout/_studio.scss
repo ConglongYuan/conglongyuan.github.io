@@ -279,6 +279,8 @@ html[data-theme="dark"] {
   align-items: start;
 }
 
+.research-logic > * { min-width: 0; }
+
 .research-logic blockquote {
   margin: 0;
   padding: 0;
