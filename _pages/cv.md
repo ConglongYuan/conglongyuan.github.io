@@ -37,9 +37,9 @@ redirect_from:
     <div class="record-group">
       <h2>Research interests</h2>
       <ol class="interest-list">
-        <li><span>01 / CORE</span>Elastic physics of soft matter</li>
-        <li><span>02 / PHOTONICS</span>Liquid-crystal optical-field control and optical communications</li>
-        <li><span>03 / EMERGING</span>Biomedical optics and instrumentation</li>
+        <li><span>01 / ORDER</span>Elasticity and ordered states in liquid crystals</li>
+        <li><span>02 / STRUCTURE</span>Defects, interfaces, and boundary control</li>
+        <li><span>03 / LIGHT</span>Soft photonics and optical-field control</li>
       </ol>
     </div>
 

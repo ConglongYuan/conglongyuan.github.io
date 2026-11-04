@@ -8,12 +8,12 @@ studio_page: true
 
 <div class="studio-shell">
   <header class="studio-page-head studio-wrap">
-    <div><p class="studio-label">Projects</p><h1>Funded work & intellectual property.</h1></div>
-    <p class="studio-page-head__intro">A concise record of projects led by Conglong Yuan and patents in which he is a named inventor.</p>
+    <div><p class="studio-label">Projects &amp; Patents</p><h1>Research projects<br>&amp; patents.</h1></div>
+    <p class="studio-page-head__intro">Research funding and patents naming Conglong Yuan as an inventor.</p>
   </header>
 
   <section class="studio-section studio-wrap">
-    <div class="record-group">
+    <div class="record-group" id="projects">
       <h2>Research projects</h2>
       <article class="record-row"><time>2026.01–2028.12</time><div><h3>National Natural Science Foundation of China, Young Scientists Fund (Category C)</h3><p>No. 62505085</p></div></article>
       <article class="record-row"><time>2024.12–2027.11</time><div><h3>Shanghai Sailing Program</h3><p>No. 24YF2709100</p></div></article>
@@ -23,7 +23,7 @@ studio_page: true
       <article class="record-row"><time>2025.01–2026.12</time><div><h3>Open Project of the Engineering Research Center of Digital Laser Imaging and Display, Ministry of Education</h3><p>No. SDGC2436</p></div></article>
     </div>
 
-    <div class="record-group">
+    <div class="record-group" id="patents">
       <h2>Patents</h2>
       <article class="record-row patent-row"><span class="record-row__meta">US · 2021-05-25</span><div><h3>Display Device with Viewing Angle Switching, Display Method and Fabrication Method Thereof</h3><p><strong>Conglong Yuan</strong>; Longcai Xin · US11016320B2</p></div></article>
       <article class="record-row patent-row"><span class="record-row__meta">CN · 2021-10-22</span><div><h3 lang="zh-CN">可实现视角切换的显示装置及其显示方法、制作方法</h3><p lang="zh-CN"><strong>袁丛龙</strong>；辛龙才 · CN110456538B</p></div></article>
