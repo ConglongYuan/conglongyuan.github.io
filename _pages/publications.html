@@ -7,18 +7,57 @@ studio_page: true
 ---
 
 <div class="studio-shell">
-  <header class="studio-page-head studio-wrap">
+  <header class="studio-page-head studio-wrap publications-head">
     <div>
       <p class="studio-label">Publications</p>
       <h1>Published work.</h1>
     </div>
     <div>
       <p class="studio-page-head__intro">First-author, co-first-author, and corresponding-author papers, arranged by publication year.</p>
-      <div class="publications-intro"><span># co-first author · * corresponding author</span><a class="studio-link" href="https://orcid.org/0000-0002-0336-9837">ORCID record</a></div>
     </div>
   </header>
 
-  <section class="studio-section studio-wrap" aria-label="Publication list">
+  <section class="cover-gallery studio-wrap" aria-labelledby="covers-title">
+    <div class="cover-gallery__heading">
+      <h2 id="covers-title">Journal covers</h2>
+      <p class="cover-gallery__hint" id="covers-hint">Swipe to view all five <span aria-hidden="true">→</span></p>
+    </div>
+    <div class="cover-strip" role="region" aria-label="Journal cover gallery" aria-describedby="covers-hint" tabindex="0">
+      <figure class="cover-item">
+        <a class="cover-item__image" href="{{ '/images/covers/am-2025-720.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Advanced Materials 2025 cover at a larger size (opens in a new tab)">
+          <img src="{{ '/images/covers/am-2025-360.webp' | relative_url }}" srcset="{{ '/images/covers/am-2025-360.webp' | relative_url }} 360w, {{ '/images/covers/am-2025-720.webp' | relative_url }} 720w" sizes="(max-width: 800px) 208px, (max-width: 1268px) calc((100vw - 136px) / 5), 227px" alt="Advanced Materials 2025 cover featuring a chameleon and heliconical liquid-crystal structure." width="720" height="946" decoding="async">
+        </a>
+        <figcaption><span title="Advanced Materials">AM</span><span>2025</span></figcaption>
+      </figure>
+      <figure class="cover-item">
+        <a class="cover-item__image" href="{{ '/images/covers/am-2017-720.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Advanced Materials 2017 cover at a larger size (opens in a new tab)">
+          <img src="{{ '/images/covers/am-2017-360.webp' | relative_url }}" srcset="{{ '/images/covers/am-2017-360.webp' | relative_url }} 360w, {{ '/images/covers/am-2017-720.webp' | relative_url }} 720w" sizes="(max-width: 800px) 208px, (max-width: 1268px) calc((100vw - 136px) / 5), 227px" alt="Advanced Materials 2017 cover featuring illuminated structures along the Great Wall." width="720" height="960" decoding="async">
+        </a>
+        <figcaption><span title="Advanced Materials">AM</span><span>2017</span></figcaption>
+      </figure>
+      <figure class="cover-item">
+        <a class="cover-item__image" href="{{ '/images/covers/afm-2026-720.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Advanced Functional Materials 2026 cover at a larger size (opens in a new tab)">
+          <img src="{{ '/images/covers/afm-2026-360.webp' | relative_url }}" srcset="{{ '/images/covers/afm-2026-360.webp' | relative_url }} 360w, {{ '/images/covers/afm-2026-720.webp' | relative_url }} 720w" sizes="(max-width: 800px) 208px, (max-width: 1268px) calc((100vw - 136px) / 5), 227px" alt="Advanced Functional Materials 2026 cover featuring a luminous blue structured-light pattern." width="720" height="946" decoding="async">
+        </a>
+        <figcaption><span title="Advanced Functional Materials">AFM</span><span>2026</span></figcaption>
+      </figure>
+      <figure class="cover-item">
+        <a class="cover-item__image" href="{{ '/images/covers/jmcc-2017-720.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Journal of Materials Chemistry C 2017 cover at a larger size (opens in a new tab)">
+          <img src="{{ '/images/covers/jmcc-2017-360.webp' | relative_url }}" srcset="{{ '/images/covers/jmcc-2017-360.webp' | relative_url }} 360w, {{ '/images/covers/jmcc-2017-720.webp' | relative_url }} 720w" sizes="(max-width: 800px) 208px, (max-width: 1268px) calc((100vw - 136px) / 5), 227px" alt="Journal of Materials Chemistry C 2017 cover featuring a liquid-crystal fingerprint texture and laser emission." width="720" height="943" decoding="async">
+        </a>
+        <figcaption><span title="Journal of Materials Chemistry C">JMCC</span><span>2017</span></figcaption>
+      </figure>
+      <figure class="cover-item">
+        <a class="cover-item__image" href="{{ '/images/covers/cj-lcd-2025-720.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Chinese Journal of Liquid Crystals and Displays 2025 cover at a larger size (opens in a new tab)">
+          <img src="{{ '/images/covers/cj-lcd-2025-360.webp' | relative_url }}" srcset="{{ '/images/covers/cj-lcd-2025-360.webp' | relative_url }} 360w, {{ '/images/covers/cj-lcd-2025-720.webp' | relative_url }} 720w" sizes="(max-width: 800px) 208px, (max-width: 1268px) calc((100vw - 136px) / 5), 227px" alt="Chinese Journal of Liquid Crystals and Displays 2025 cover featuring an equal-power beam splitter based on liquid-crystal polymer waveguides." width="720" height="996" decoding="async">
+        </a>
+        <figcaption><span lang="zh-CN">液晶与显示</span><span>2025</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="studio-section studio-wrap publication-records" aria-label="Publication list">
+    <div class="publications-intro"><span># co-first author · * corresponding author</span><a class="studio-link" href="https://orcid.org/0000-0002-0336-9837">ORCID record</a></div>
     <div class="publication-stack">
       <article class="pub-item"><span class="pub-item__year">2026</span><div><p class="pub-item__authors">Mi Z, Wang X, Zhan Y, Liu S, Liu X, Cheng Z, Hu H, Huang W, <strong>Yuan C*</strong>, Lu Y-Q*, Zheng Z-G*</p><h2><a href="https://doi.org/10.1002/adfm.78528">Generalized Tricomi–Gaussian Beams as a Structured Light Framework Enabled by Liquid-Crystal Geometric-Phase Polymer</a></h2><p class="pub-item__venue">Advanced Functional Materials, e78528 · Research article</p></div><span class="pub-item__role">corresponding</span></article>
       <article class="pub-item"><span class="pub-item__year">2026</span><div><p class="pub-item__authors">Guo L et al., <strong>Yuan C*</strong>, Wang X*, Zheng Z*</p><h2><a href="https://doi.org/10.1002/adfm.75304">Advances in Liquid Crystal Holographic Devices: Recent Research Progress</a></h2><p class="pub-item__venue">Advanced Functional Materials, e75304 · Review</p></div><span class="pub-item__role">corresponding</span></article>
