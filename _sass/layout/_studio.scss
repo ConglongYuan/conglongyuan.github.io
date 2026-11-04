@@ -29,7 +29,7 @@ html[data-theme="dark"] {
 }
 
 .site-studio {
-  min-width: 320px;
+  min-width: 0;
   /* Studio navigation is in normal flow; override legacy fixed-header spacing. */
   padding-top: 0 !important;
   color: var(--studio-ink);
