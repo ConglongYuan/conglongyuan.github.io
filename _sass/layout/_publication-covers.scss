@@ -1,0 +1,26 @@
+/* Full journal covers stay in a single row without cropping or distortion. */
+.publications-head { padding-top: 44px; padding-bottom: 32px; gap: 32px; }
+.publications-head h1 { font-size: clamp(38px, 4.5vw, 58px); }
+.site-studio .publications-head .studio-page-head__intro { font-size: 16px; }
+.cover-gallery { padding-top: 26px; padding-bottom: 28px; border-bottom: 1px solid var(--studio-line); }
+.cover-gallery__heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+.cover-gallery h2 { margin: 0; padding: 0; border: 0; color: var(--studio-ink); font-size: 18px; font-weight: 600; letter-spacing: -.02em; }
+.cover-gallery .cover-gallery__hint { display: none; margin: 0; color: var(--studio-muted); font-size: 11px; }
+.cover-strip { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 22px; padding: 4px 0 8px; }
+.cover-strip:focus-visible { outline: 2px solid var(--studio-blue); outline-offset: 5px; }
+.cover-strip .cover-item { display: block; min-width: 0; margin: 0; }
+.cover-item__image { display: block; aspect-ratio: 4 / 5; background: var(--studio-surface); border: 1px solid var(--studio-line); text-decoration: none; }
+.cover-item__image:hover { border-color: var(--studio-blue); }
+.cover-item__image img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.cover-item figcaption { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin: 12px 0 0; color: var(--studio-ink); font-size: 13px; font-weight: 600; line-height: 1.5; }
+.cover-item figcaption span:last-child { color: var(--studio-muted); font-size: 12px; font-weight: 400; font-variant-numeric: tabular-nums; }
+.publication-records { padding-top: 26px; }
+.publication-records .publications-intro { align-items: center; margin: 0 0 18px; }
+@media (max-width: 800px) {
+  .publications-head { padding-top: 32px; padding-bottom: 24px; gap: 18px; }
+  .cover-gallery__heading { flex-wrap: wrap; gap: 6px 16px; }
+  .cover-gallery .cover-gallery__hint { display: block; }
+  .cover-strip { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: clamp(164px, 48vw, 208px); gap: 16px; overflow-x: auto; padding-bottom: 16px; scroll-snap-type: x proximity; overscroll-behavior-inline: contain; scrollbar-width: thin; scrollbar-color: var(--studio-muted) var(--studio-wash); }
+  .cover-item { scroll-snap-align: start; }
+  .publication-records .publications-intro { display: flex; flex-wrap: wrap; gap: 0 16px; font-size: 13px; }
+}
