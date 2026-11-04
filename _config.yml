@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Conglong Yuan"
 title_separator          : "-"
 name                     : &name "Conglong Yuan"
-description              : &description "Academic homepage of Conglong Yuan, School of Physics, East China University of Science and Technology"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Conglong Yuan studies liquid-crystal elasticity, defects, and soft photonics at East China University of Science and Technology."
 url                      : "https://conglongyuan.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
