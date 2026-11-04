@@ -7,9 +7,9 @@
   gap: clamp(32px, 5vw, 72px);
   padding: clamp(40px, 5vw, 72px) 0 52px;
 }
-.home-name { margin: 0 0 3px; color: var(--studio-ink); font-size: 23px; font-weight: 650; letter-spacing: -.025em; }
+.home-shell .home-name { margin: 0 0 3px; color: var(--studio-ink); font-size: 23px; font-weight: 650; letter-spacing: -.025em; }
 .home-name span { margin-left: 8px; font-size: 18px; font-weight: 450; }
-.home-role { margin: 0; color: var(--studio-muted); font-size: 13px; }
+.home-shell .home-role { margin: 0; color: var(--studio-muted); font-size: 13px; }
 .home-intro h1 {
   margin: 34px 0 22px;
   color: var(--studio-ink);
@@ -21,7 +21,7 @@
 }
 .home-intro h1 span { display: block; }
 .home-intro h1 em { color: var(--studio-blue); font-weight: 400; }
-.home-lede { max-width: 440px; margin: 0; color: var(--studio-muted); font-size: 16px; line-height: 1.65; }
+.home-shell .home-lede { max-width: 440px; margin: 0; color: var(--studio-muted); font-size: 16px; line-height: 1.65; }
 .home-explore {
   display: inline-flex;
   min-height: 44px;
@@ -66,7 +66,7 @@
 .home-theme:hover img { border-color: var(--studio-blue); }
 .home-directions { padding-top: 32px; border-top: 1px solid var(--studio-line); }
 .home-directions__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
-.home-art-credit { margin: 26px 0 0; color: var(--studio-muted); font-size: 11px; }
+.home-shell .home-art-credit { margin: 26px 0 0; color: var(--studio-muted); font-size: 11px; }
 @media (max-width: 1000px) and (min-width: 801px) {
   .home-intro { gap: 28px; grid-template-columns: 1fr 1fr; }
   .home-intro h1 { font-size: 44px; }
@@ -75,17 +75,17 @@
   .home-intro { grid-template-columns: 1fr; padding-top: 34px; gap: 30px; }
   .home-intro__copy { max-width: 590px; }
   .home-intro h1 { margin-top: 26px; font-size: clamp(43px, 7.7vw, 62px); }
-  .home-lede { max-width: 560px; }
+  .home-shell .home-lede { max-width: 560px; }
   .home-directions__grid { gap: 24px; }
 }
 @media (max-width: 600px) {
   .home-shell { padding-bottom: 28px; }
-  .home-name { font-size: 21px; }
+  .home-shell .home-name { font-size: 21px; }
   .home-name span { font-size: 16px; }
-  .home-role { font-size: 12px; }
+  .home-shell .home-role { font-size: 12px; }
   .home-intro { padding-bottom: 30px; }
   .home-intro h1 { font-size: clamp(39px, 10.8vw, 58px); }
-  .home-lede { font-size: 15px; }
+  .home-shell .home-lede { font-size: 15px; }
   .home-theme__caption { padding-top: 14px; }
   .home-theme h2 { font-size: 24px; gap: 10px; }
   .home-theme p { font-size: 14px; }
