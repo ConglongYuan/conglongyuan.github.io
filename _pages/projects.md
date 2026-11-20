@@ -25,6 +25,7 @@ studio_page: true
 
     <div class="record-group" id="patents">
       <h2>Patents</h2>
+      <article class="record-row patent-row"><span class="record-row__meta">CN · Granted 2026-11-13</span><div><h3 lang="zh-CN">一种圆偏振发光测试装置及不对称因子检测方法</h3><p lang="zh-CN">郑致刚；胡宏龙；任懿冉；刘璇；<strong>袁丛龙</strong> · CN122487250B · ZL202610789096.7</p><p lang="zh-CN">专利权人：华东理工大学</p></div></article>
       <article class="record-row patent-row"><span class="record-row__meta">US · 2021-05-25</span><div><h3>Display Device with Viewing Angle Switching, Display Method and Fabrication Method Thereof</h3><p><strong>Conglong Yuan</strong>; Longcai Xin · US11016320B2</p></div></article>
       <article class="record-row patent-row"><span class="record-row__meta">CN · 2021-10-22</span><div><h3 lang="zh-CN">可实现视角切换的显示装置及其显示方法、制作方法</h3><p lang="zh-CN"><strong>袁丛龙</strong>；辛龙才 · CN110456538B</p></div></article>
       <article class="record-row patent-row"><span class="record-row__meta">CN · 2025-04-11</span><div><h3 lang="zh-CN">一种室温稳定无结晶的扭曲弯曲向列相液晶二聚体材料及其应用</h3><p lang="zh-CN">郑致刚；<strong>袁丛龙</strong>；占宇星；刘慧娴 · ZL202310908652.4</p></div></article>
