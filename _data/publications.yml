@@ -1,0 +1,161 @@
+# Publication order is intentional. Replace image files to add verified TOC artwork.
+# Official DOI links resolve to the publisher; the COL 2025 entry uses its official article URL.
+- id: "optmat-2027-helical-memory"
+  year: 2027
+  title: "Programmable helical-memory chiral porous polymer films for storage-history-responsive photonics"
+  authors: "Zhan Y, Hu M, Ren Y, Wang X, Mi Z, Liu S, Sun P, <strong>Yuan C*</strong>, Hu H, Zheng Z-G"
+  venue: "Optical Materials 182, 118702 · Accepted"
+  role: "corresponding"
+  url: "https://doi.org/10.1016/j.optmat.2026.118702"
+  image: "/images/publications/optmat-2027-helical-memory.webp"
+  image_alt: ""
+
+- id: "afm-2026-tricomi-gaussian"
+  year: 2026
+  title: "Generalized Tricomi–Gaussian Beams as a Structured Light Framework Enabled by Liquid-Crystal Geometric-Phase Polymer"
+  authors: "Mi Z, Wang X, Zhan Y, Liu S, Liu X, Cheng Z, Hu H, Huang W, <strong>Yuan C*</strong>, Lu Y-Q*, Zheng Z-G*"
+  venue: "Advanced Functional Materials, e78528 · Research article"
+  role: "corresponding"
+  url: "https://doi.org/10.1002/adfm.78528"
+  image: "/images/publications/afm-2026-tricomi-gaussian.webp"
+  image_alt: ""
+
+- id: "afm-2026-holographic-devices"
+  year: 2026
+  title: "Advances in Liquid Crystal Holographic Devices: Recent Research Progress"
+  authors: "Guo L et al., <strong>Yuan C*</strong>, Wang X*, Zheng Z*"
+  venue: "Advanced Functional Materials, e75304 · Review"
+  role: "corresponding"
+  url: "https://doi.org/10.1002/adfm.75304"
+  image: "/images/publications/afm-2026-holographic-devices.webp"
+  image_alt: ""
+
+- id: "am-2025-electro-thermo"
+  year: 2025
+  title: "Electro-Thermo Cooperative Responsiveness of Cholesteric Heliconical Photonics Architectures Featuring Adaptative Sensitivity"
+  authors: "<strong>Yuan C#</strong>, Liu H# et al."
+  venue: "Advanced Materials 37, 2507000"
+  role: "co-first"
+  url: "https://doi.org/10.1002/adma.202507000"
+  image: "/images/publications/am-2025-electro-thermo.webp"
+  image_alt: ""
+
+- id: "jcp-2025-thioether-dimers"
+  year: 2025
+  title: "Twist-Bend Nematic Phase and Heliconical Superstructures of Thioether-Linked Liquid Crystal Dimers"
+  authors: "Liu H#, Guo L# et al., <strong>Yuan C*</strong>, Zheng Z*"
+  venue: "Journal of Chemical Physics 163, 134901"
+  role: "corresponding"
+  url: "https://doi.org/10.1063/5.0281634"
+  image: "/images/publications/jcp-2025-thioether-dimers.webp"
+  image_alt: ""
+
+- id: "aom-2025-smectic-defects"
+  year: 2025
+  title: "Programming Smectic Soft Defects via Pixelated Holographic Lithography"
+  authors: "Jiao G et al., <strong>Yuan C*</strong>, Zheng Z*"
+  venue: "Advanced Optical Materials 13, 2500233"
+  role: "corresponding"
+  url: "https://doi.org/10.1002/adom.202500233"
+  image: "/images/publications/aom-2025-smectic-defects.webp"
+  image_alt: ""
+
+- id: "col-2025-film-diffraction"
+  year: 2025
+  title: "Light-Activated Film Diffractive Optical Elements Enabling Diversified Optical Field Modulation"
+  authors: "Shen N et al., <strong>Yuan C*</strong>, Zheng Z"
+  venue: "Chinese Optics Letters 23, 011602"
+  role: "corresponding"
+  url: "https://opg.optica.org/col/abstract.cfm?uri=col-23-1-011602"
+  image: "/images/publications/col-2025-film-diffraction.webp"
+  image_alt: ""
+
+- id: "giant-2024-stable-nematics"
+  year: 2024
+  title: "Room Temperature Stable Twist-Bend Nematic Materials without Crystallization over 1 Year"
+  authors: "<strong>Yuan C</strong> et al."
+  venue: "Giant 19, 100290"
+  role: "first"
+  url: "https://doi.org/10.1016/j.giant.2024.100290"
+  image: "/images/publications/giant-2024-stable-nematics.webp"
+  image_alt: ""
+
+- id: "aom-2024-soft-lens"
+  year: 2024
+  title: "Photo-Active Soft Actuator Enabling Dynamic Manipulable Lenses with Surface Reshaping"
+  authors: "Shen N#, <strong>Yuan C#</strong>, Hu H# et al."
+  venue: "Advanced Optical Materials 12, 2401430"
+  role: "co-first"
+  url: "https://doi.org/10.1002/adom.202401430"
+  image: "/images/publications/aom-2024-soft-lens.webp"
+  image_alt: ""
+
+- id: "matter-2023-hyper-stable"
+  year: 2023
+  title: "Hyper-Stable Field-Stimulated Soft Cholesteric Heliconical Architectures"
+  authors: "<strong>Yuan C#</strong>, Chen J# et al."
+  venue: "Matter 6, 3555–3573"
+  role: "co-first"
+  url: "https://doi.org/10.1016/j.matt.2023.07.027"
+  image: "/images/publications/matter-2023-hyper-stable.webp"
+  image_alt: ""
+
+- id: "am-2023-jigsaw-puzzles"
+  year: 2023
+  title: "Programmable Jigsaw Puzzles of Soft Materials Enabled by Pixelated Holographic Surface Reliefs"
+  authors: "Wang Y#, <strong>Yuan C#</strong>, Huang W# et al."
+  venue: "Advanced Materials 35, 2211521"
+  role: "co-first"
+  url: "https://doi.org/10.1002/adma.202211521"
+  image: "/images/publications/am-2023-jigsaw-puzzles.webp"
+  image_alt: ""
+
+- id: "nc-2022-frequency-actuation"
+  year: 2022
+  title: "Dynamically Actuated Soft Heliconical Architecture via Frequency of Electric Fields"
+  authors: "Liu B#, <strong>Yuan C#</strong>, Hu H# et al."
+  venue: "Nature Communications 13, 2712"
+  role: "co-first"
+  url: "https://doi.org/10.1038/s41467-022-30486-2"
+  image: "/images/publications/nc-2022-frequency-actuation.webp"
+  image_alt: ""
+
+- id: "col-2020-tunable-helicity"
+  year: 2020
+  title: "Electrically Tunable Helicity of Cholesteric Heliconical Superstructure"
+  authors: "<strong>Yuan C</strong> et al."
+  venue: "Chinese Optics Letters 18, 080005"
+  role: "first"
+  url: "https://doi.org/10.3788/COL202018.080005"
+  image: "/images/publications/col-2020-tunable-helicity.webp"
+  image_alt: ""
+
+- id: "sciadv-2019-soft-helix"
+  year: 2019
+  title: "Stimulated Transformation of Soft Helix among Helicoidal, Heliconical, and Their Inverse Helices"
+  authors: "<strong>Yuan C#</strong>, Huang W#, Zheng Z#,* et al."
+  venue: "Science Advances 5, eaax9501"
+  role: "co-first"
+  url: "https://doi.org/10.1126/sciadv.aax9501"
+  image: "/images/publications/sciadv-2019-soft-helix.webp"
+  image_alt: ""
+
+- id: "am-2017-photonic-crystal"
+  year: 2017
+  title: "Light-Patterned Crystallographic Direction of a Self-Organized 3D Soft Photonic Crystal"
+  authors: "Zheng Z#, <strong>Yuan C#</strong>, Hu W# et al."
+  venue: "Advanced Materials 29, 1703165"
+  role: "co-first"
+  url: "https://doi.org/10.1002/adma.201703165"
+  image: "/images/publications/am-2017-photonic-crystal.webp"
+  image_alt: ""
+
+- id: "jmcc-2017-lasing"
+  year: 2017
+  title: "Dynamically Manipulated Lasing Enabled by a Reconfigured Fingerprint Texture of a Cholesteric Self-Organized Superstructure"
+  authors: "Huang W#, <strong>Yuan C#</strong> et al."
+  venue: "Journal of Materials Chemistry C 5, 6923–6928"
+  role: "co-first"
+  url: "https://doi.org/10.1039/C7TC02076G"
+  image: "/images/publications/jmcc-2017-lasing.webp"
+  image_alt: ""
