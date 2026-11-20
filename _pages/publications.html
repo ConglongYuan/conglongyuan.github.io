@@ -20,7 +20,7 @@ studio_page: true
   <section class="cover-gallery studio-wrap" aria-labelledby="covers-title">
     <div class="cover-gallery__heading">
       <h2 id="covers-title">Journal covers</h2>
-      <p class="cover-gallery__hint" id="covers-hint">Swipe to view all five <span aria-hidden="true">��</span></p>
+      <p class="cover-gallery__hint" id="covers-hint">Swipe to view all five <span aria-hidden="true">→</span></p>
     </div>
     <div class="cover-strip" role="region" aria-label="Journal cover gallery" aria-describedby="covers-hint" tabindex="0">
       <figure class="cover-item">
@@ -51,13 +51,13 @@ studio_page: true
         <a class="cover-item__image" href="{{ '/images/covers/cj-lcd-2025-720.webp' | relative_url }}" target="_blank" rel="noopener" aria-label="View the Chinese Journal of Liquid Crystals and Displays 2025 cover at a larger size (opens in a new tab)">
           <img src="{{ '/images/covers/cj-lcd-2025-360.webp' | relative_url }}" srcset="{{ '/images/covers/cj-lcd-2025-360.webp' | relative_url }} 360w, {{ '/images/covers/cj-lcd-2025-720.webp' | relative_url }} 720w" sizes="(max-width: 800px) 208px, (max-width: 1268px) calc((100vw - 136px) / 5), 227px" alt="Chinese Journal of Liquid Crystals and Displays 2025 cover featuring an equal-power beam splitter based on liquid-crystal polymer waveguides." width="720" height="996" decoding="async">
         </a>
-        <figcaption><span lang="zh-CN">Һ������ʾ</span><span>2025</span></figcaption>
+        <figcaption><span lang="zh-CN">液晶与显示</span><span>2025</span></figcaption>
       </figure>
     </div>
   </section>
 
   <section class="studio-section studio-wrap publication-records" aria-label="Publication list">
-    <div class="publications-intro"><span># co-first author �� * corresponding author</span><a class="studio-link" href="https://orcid.org/0000-0002-0336-9837">ORCID record</a></div>
+    <div class="publications-intro"><span># co-first author · * corresponding author</span><a class="studio-link" href="https://orcid.org/0000-0002-0336-9837">ORCID record</a></div>
     <div class="publication-stack">
       {% for paper in site.data.publications %}
       <article class="pub-item" id="{{ paper.id }}" aria-labelledby="{{ paper.id }}-title">
@@ -69,7 +69,7 @@ studio_page: true
           <h2 id="{{ paper.id }}-title"><a href="{{ paper.url | escape }}">{{ paper.title }}</a></h2>
           <p class="pub-item__authors">{{ paper.authors }}</p>
           <p class="pub-item__venue">{{ paper.venue }}</p>
-          <a class="pub-item__journal" href="{{ paper.url | escape }}" aria-label="Journal page: {{ paper.title | escape }}">Journal page<span aria-hidden="true"> �J</span></a>
+          <a class="pub-item__journal" href="{{ paper.url | escape }}" aria-label="Journal page: {{ paper.title | escape }}">Journal page<span aria-hidden="true"> ↗</span></a>
         </div>
       </article>
       {% endfor %}
